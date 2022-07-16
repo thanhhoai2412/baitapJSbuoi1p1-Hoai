@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+<body>
+  <!-- Bai tap 1 -->
+  <div class=" container ">
+    <p class="theme">Xuất 3 số theo thứ tự tăng dần</p>
+  </div>
+      <div class="w-50 py-5" id="tttd">
+          <form>
+            <div class="form-group">
+              <label for="soThu1">Số 1</label>
+              <input type="number" class="form-control" id="number1">
+            </div>
+            <div class="form-group">
+              <label for="soThu2">Số 2</label>
+              <input type="number" class="form-control" id="number2">
+            </div>
+            <div class="form-group">
+              <label for="soThu3">Số 3</label>
+              <input type="number" class="form-control" id="number3">
+            </div>
+      </div>
+            <button type="button" id="btnbai1" class="btn btn-success">Sắp xếp</button>
+    
+          </form>
+          <p class="alert alert-info" id="txtResultbai1"></p>
+          <!-- Bai tap 2 -->
+          <div class="container">
+            <p class="mt-3 mb-3">Chương trình "Chào hỏi"</p>
+          </div>
+          <div class="w-50 py-5 " id="glc">
+            <form class="row gy-3 px-2 mt-5">
+              <h4 class="mt-3 mb-3">Chương trình "Chào hỏi"</h4>
+              <div class="form-group col-12 col-lg-4 mt-3 mb-3">
+                <select class="form-control" name="" id="Listoption">
+                  <option value="">Chọn thành viên</option>
+                  <option value="Bo">Bố</option>
+                  <option value="Me">Mẹ</option>
+                  <option value="Anh">Anh Trai</option>
+                  <option value="Em">Em Gái</option>
+                </select>
+              </div>
+              <div class="row gy-3 px-2 mt-3 mb-3">
+                <div class="col-12  ">
+                  <button class="btn btn-success me-3 mb-3" type="button" id="btnchao">
+                    Gửi lời chào
+                  </button>
+                </div>
+                <div class="col-12 ">
+                  <div class="alert alert-primary">
+                    <span id="txtchao">&#8205</span>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <!-- Bai tap 3 -->
+          <div class=" container ">
+            <p class="theme">Đếm số chẵn, lẻ</p>
+          </div>
+              <div class="w-50 py-5" id="chanle">
+                  <form>
+                    <div class="form-group">
+                      <label for="so1">Số 1</label>
+                      <input type="number" class="form-control" id="sothu1">
+                    </div>
+                    <div class="form-group">
+                      <label for="so2">Số 2</label>
+                      <input type="number" class="form-control" id="sothu2">
+                    </div>
+                    <div class="form-group">
+                      <label for="so3">Số 3</label>
+                      <input type="number" class="form-control" id="sothu3">
+                    </div>
+              </div>
+                    <button type="button" id="btnbai3" class="btn btn-success">Đếm</button>
+            
+                  </form>
+                  <p class="alert alert-info" id="txtResultbai3"></p>
+                  <!-- Bai tap 4 -->
+                  <div class=" container ">
+                    <p class="theme">Xác định loại tam giác</p>
+                  </div>
+                      <div class="container w-50" id="tamgiac">
+                          <form class="row gy-3  px-2 mt-5">
+                            <div class="form-group">
+                              <label for="canh1">Nhập độ dài cạnh 1</label>
+                              <input type="number" class="form-control" id="canh1">
+                            </div>
+                            <div class="form-group">
+                              <label for="canh2">Nhập độ dài cạnh 2</label>
+                              <input type="number" class="form-control" id="canh2">
+                            </div>
+                            <div class="form-group">
+                              <label for="canh3">Nhập độ dài cạnh 3</label>
+                              <input type="number" class="form-control" id="canh3">
+                            </div>
+                      </div>
+                            <button type="button" id="btnbai4" class="btn btn-success">Dự đoán</button>
+                    
+                          </form>
+                          <p class="alert alert-info" id="txtResultbai4"></p>
+        
+
+
+    
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+    crossorigin="anonymous"></script>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
